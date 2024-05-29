@@ -1,0 +1,65 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="board.boardDTO"%>
+<%@ page import="board.boardDAO"%>
+<%@ page import="java.util.List" %>
+<%@ include file="../layout/header.jsp"%>
+
+<html lang="ko">
+<head>
+    <title>Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/board/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2>Recent posts..</h2>
+            <table class="table table-striped table-custom">
+                <thead>
+                    <tr class="table-header">
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>작성자</th>
+                        <th>작성일</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% boardDAO dao = new boardDAO();
+                    List<boardDTO> recentPosts = dao.getRecentPosts(10); 
+
+                    for (boardDTO post : recentPosts) { %>
+                    <tr>
+                        <td><%= post.getboardId() %></td>
+                        <td><a href="view.jsp?id=<%=post.getboardId()%>"><%= post.getboardTitle() %></a></td>
+                        <td><%= post.getuserId() %></td>
+                        <td><%= post.getboardDate() %></td>
+                    </tr>
+                    <% } %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-end">
+            <form method="post" name="search" action="#" class="w-100">
+                <div class="form-row">
+                    <div class="col-md-2">
+                        <select class="form-control" name="searchField">
+                            <option value="0">선택</option>
+                            <option value="Title">제목</option>
+                            <option value="userID">작성자</option>
+                        </select>
+                    </div>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" placeholder="검색어를 입력하세요." name="searchText">
+                    </div>
+                    <div class="col-md-1">
+                        <button type="submit" class="btn btn-dark w-100">검색</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

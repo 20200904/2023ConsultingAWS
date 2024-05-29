@@ -1,0 +1,39 @@
+html, 
+body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.date-button,
+.user-button {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.group-content {
+    width: 100%;
+    max-width:1000px;
+    margin: 50 0px;
+    padding: 0 50px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    align-items: center;
+}
+
+/** quil editor css 적용 안되는 부분들 **/
+.ql-size-small {
+  font-size: 0.75em;
+}
+.ql-size-large {
+  font-size: 1.5em;
+}
+.ql-size-huge {
+  font-size: 2.5em;
+}

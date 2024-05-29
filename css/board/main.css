@@ -1,0 +1,33 @@
+html,
+body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.groups{
+    width: 100%;
+    max-width: 1000px;
+    padding: 50px;
+}
+
+.table-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.table-custom {
+    text-align: center;
+    border: 1px solid #dddddd;
+}
+
+.search-form{
+    width: 300px;
+    float: right;
+    text-align: center;
+}
