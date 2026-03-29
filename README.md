@@ -5,8 +5,17 @@
 This project involves the implementation of a web application and server environment on AWS to enhance understanding of web service operations and security. Following the "Guide for Vulnerability Diagnosis of Major Information and Communication Infrastructure," this project demonstrates the process of identifying, analyzing, and mitigating security vulnerabilities from an administrator's perspective.
 
 
-🛠️ Technical StackFrontend: 
-HTML, CSS, JavaScript Backend: Java (Servlet/JSP based) Database: MySQL (AWS RDS) Infrastructure: AWS EC2 (Ubuntu), AWS ACM (SSL/TLS) Analysis Tools: Burp Suite, Wireshark 
+🛠️ Technical Stack
+Frontend: 
+HTML, CSS, JavaScript 
+Backend: 
+Java (Servlet/JSP based) 
+Database: 
+MySQL (AWS RDS) 
+Infrastructure: 
+AWS EC2 (Ubuntu), AWS ACM (SSL/TLS) 
+Analysis Tools: 
+Burp Suite, Wireshark 
 
 
 🚀 Key Features
