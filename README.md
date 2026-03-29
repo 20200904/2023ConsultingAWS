@@ -1,7 +1,7 @@
 🛡️ AWS CLOUD PENTESTING WEBSITE
 
 
-📌 Project Overview
+📌 Project Overview<br>
 This project involves the implementation of a web application and server environment on AWS to enhance understanding of web service operations and security. Following the "Guide for Vulnerability Diagnosis of Major Information and Communication Infrastructure," this project demonstrates the process of identifying, analyzing, and mitigating security vulnerabilities from an administrator's perspective.
 
 
@@ -18,7 +18,7 @@ Analysis Tools:
 Burp Suite, Wireshark <br>
 
 
-🚀 Key Features
+🚀 Key Features<br>
 User Management: Authentication, profile management, and secure session handling.
 Board/Blog CMS: CRUD operations for posts, file uploads/downloads, and comment systems.
 Security Controls: Input filtering, CSRF token validation, and DBMS access control.
