@@ -19,9 +19,9 @@ Burp Suite, Wireshark <br>
 
 
 🚀 Key Features<br>
-User Management: Authentication, profile management, and secure session handling.
-Board/Blog CMS: CRUD operations for posts, file uploads/downloads, and comment systems.
-Security Controls: Input filtering, CSRF token validation, and DBMS access control.
+User Management: Authentication, profile management, and secure session handling.<br>
+Board/Blog CMS: CRUD operations for posts, file uploads/downloads, and comment systems.<br>
+Security Controls: Input filtering, CSRF token validation, and DBMS access control.<br>
 
 
 📑 Vulnerability Diagnosis & Report Structure
