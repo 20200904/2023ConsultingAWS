@@ -7,15 +7,15 @@ This project involves the implementation of a web application and server environ
 
 🛠️ Technical Stack
 Frontend: 
-HTML, CSS, JavaScript 
+HTML, CSS, JavaScript <br>
 Backend: 
-Java (Servlet/JSP based) 
+Java (Servlet/JSP based) <br>
 Database: 
-MySQL (AWS RDS) 
+MySQL (AWS RDS) <br>
 Infrastructure: 
-AWS EC2 (Ubuntu), AWS ACM (SSL/TLS) 
+AWS EC2 (Ubuntu), AWS ACM (SSL/TLS) <br>
 Analysis Tools: 
-Burp Suite, Wireshark 
+Burp Suite, Wireshark <br>
 
 
 🚀 Key Features
