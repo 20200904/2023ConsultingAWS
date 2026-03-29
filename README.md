@@ -1,18 +1,23 @@
 🛡️ AWS CLOUD PENTESTING WEBSITE
 
+
 📌 Project Overview
 This project involves the implementation of a web application and server environment on AWS to enhance understanding of web service operations and security. Following the "Guide for Vulnerability Diagnosis of Major Information and Communication Infrastructure," this project demonstrates the process of identifying, analyzing, and mitigating security vulnerabilities from an administrator's perspective.
 
+
 🛠️ Technical StackFrontend: 
 HTML, CSS, JavaScript Backend: Java (Servlet/JSP based) Database: MySQL (AWS RDS) Infrastructure: AWS EC2 (Ubuntu), AWS ACM (SSL/TLS) Analysis Tools: Burp Suite, Wireshark 
+
 
 🚀 Key Features
 User Management: Authentication, profile management, and secure session handling.
 Board/Blog CMS: CRUD operations for posts, file uploads/downloads, and comment systems.
 Security Controls: Input filtering, CSRF token validation, and DBMS access control.
 
+
 📑 Vulnerability Diagnosis & Report Structure
 This repository is based on a comprehensive security consulting report. The diagnosis covered 8 DBMS items and 17 Web application items, identifying a total of 19 vulnerabilities across the system.
+
 
 1. Report Hierarchy
 Introduction: Background, objectives, personnel roles, and diagnosis schedule.
