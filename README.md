@@ -1,27 +1,25 @@
-AWS CLOUD PENTESTING WEBSITE
+🛡️ AWS CLOUD PENTESTING WEBSITE
+📌 Project Overview
+This project involves the implementation of a web application and server environment on AWS to enhance understanding of web service operations and security. Following the "Guide for Vulnerability Diagnosis of Major Information and Communication Infrastructure," this project demonstrates the process of identifying, analyzing, and mitigating security vulnerabilities from an administrator's perspective.
 
-📌 프로젝트 개요 :  
-이 프로젝트는 AWS 환경에서 웹 애플리케이션 보안 테스트를 위한 간이 웹 페이지를 구현한 것입니다. 보안 컨설팅 및 모의 해킹 실습을 목적으로 하며, 다양한 취약점을 시뮬레이션할 수 있도록 구성되어 있습니다.
+🛠️ Technical StackFrontend: 
+HTML, CSS, JavaScript Backend: Java (Servlet/JSP based) Database: MySQL (AWS RDS) Infrastructure: AWS EC2 (Ubuntu), AWS ACM (SSL/TLS) Analysis Tools: Burp Suite, Wireshark 
 
-🛠️ 기술 스택  
-프론트엔드: HTML, CSS, JavaScript  
-  
-백엔드: Java (Servlet 기반)  
-  
-AWS 서비스: EC2, S3, RDS 등  
-  
-🚀주요 기능
-사용자 인증 및 권한 관리  
-게시판 CRUD 기능  
-댓글 작성 및 관리  
-입력 값 검증 및 필터링  
-세션 관리 및 보안 설정  
+🚀 Key Features
+User Management: Authentication, profile management, and secure session handling.
+Board/Blog CMS: CRUD operations for posts, file uploads/downloads, and comment systems.
+Security Controls: Input filtering, CSRF token validation, and DBMS access control.
 
+📑 Vulnerability Diagnosis & Report Structure
+This repository is based on a comprehensive security consulting report. The diagnosis covered 8 DBMS items and 17 Web application items, identifying a total of 19 vulnerabilities across the system.
 
-⚠️ 보안 테스트 시나리오  
-이 프로젝트는 다음과 같은 보안 취약점 테스트를 위한 시나리오를 포함하고 있습니다:  
-SQL Injection  
-Cross-Site Scripting (XSS)  
-Cross-Site Request Forgery (CSRF)  
-세션 하이재킹  
-취약한 인증 및 권한 설정  
+1. Report Hierarchy
+Introduction: Background, objectives, personnel roles, and diagnosis schedule.
+Executive Summary: A high-level overview of the diagnosis results and general assessment.
+DBMS Vulnerabilities: Detailed inspection and remediation of Account and Access Management.
+Web Application Vulnerabilities: Analysis of 17 major attack vectors including Injection and Broken Access Control.
+Advanced Vulnerability Analysis: In-depth exploitation scenarios for Command Injection, SSRF, SSTI, and Malware.
+2. Major Diagnosis Items & Results
+DBMS Security: Identified vulnerabilities in default password policies (D-01), password reuse limits (D-12), and remote access restrictions (D-05).
+Web Application Security:
+Injection:Analyzed SQL Injection (SI) and OS Command Injection (OC) risks.Broken Access Control: Diagnosed insufficient authentication (IA) and authorization (IN).Cross-Site Attacks: Verified Stored/Reflected XSS (XS) and CSRF (CF) vulnerabilities.File Handling: Tested for malicious Web Shell uploads (FU) and Path Traversal during downloads (FD).Information Leakage: Identified exposure of sensitive data in source code and verbose error page
